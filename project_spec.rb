@@ -8,4 +8,10 @@ RSpec.describe Project do
 		# what the result should be in order for the test to pass
 		expect(project.name).to eq("Project Name")
 	end
+	# add the test below to your spec file
+	it "has a getter and a setter for description attribute" do
+		project = Project.new
+		project.description = "I am a project"
+		expect(project.description).to eq("I am a project")
+	end
 end
