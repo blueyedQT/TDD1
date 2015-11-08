@@ -6,6 +6,6 @@ class Project
 	end
 
 	def elevator_pitch
-		return @name+" "+@description
+		@name+" "+@description
 	end
 end
